@@ -2,8 +2,9 @@
   $.fn.timeline = function(){};
 
   $.fn.timelineFilterHighlight = function(timeline, options){
+    console.log("%o.timelineFilterHighlight called!", this);
     options = options || {};
-    var filter-count = options['filter-count'] || 1;
+    var filterCount = options['filter-count'] || 1;
 
     var form = $("<form/>", {
       class: "timeline-filter-highlight-controls"
@@ -16,12 +17,12 @@
     var filters = $("<ul/>", {
       class: "timeline-filter-controls"
     }).appendTo(form);
-    $("<button/>" {
+    $("<button/>", {
       text: "Filter"
     }).appendTo(form);
 
     for (var i=0;i<options['filter-count'];i++) {
-      $("<input>" {
+      $("<input>", {
         
       }).wrap("li").appendTo(filters);
     }
@@ -33,7 +34,7 @@
     var highlights = $("<ul/>", {
       class: "timeline-highlight-controls"
     }).appendTo(form);
-    $("<button/>" {
+    $("<button/>", {
       text: "Highlight"
     }).appendTo(form);
 
