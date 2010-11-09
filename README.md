@@ -1,13 +1,14 @@
-# jQuery SharePoint JSON
+# jQuery Timeline
 
-This simple jQuery plugin converts XML returned from SharePoint's web services and converts it to JSON.
+jQuery Timeline is several things:
 
-## Features
-
-* Converts XML elements representing list items into JSON objects according to a user-defined mapping object
-* Designed to be used with [Marc D. Anderson](http://www.endusersharepoint.com/category/authors/marc-d-anderson/)'s excellent [jquery.SPServices](http://spservices.codeplex.com/) library
-
+* A jQuery wrapper around the SIMILE Timeline API
+* A collection of enhancements and plugins for SIMILE Timeline
+  * A filtering/highlighting widget
+  * A Band labeller
+  * More to come
+* Eventually, jQuery Timeline will re-implement various parts of the Timeline API using jQuery for DOM manipulation, event binding, and animation
 
 ## Synopsis
 
-TODO
+TODO.
